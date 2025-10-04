@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><%= article.title %></title>
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <h1><a href='/admin/dashboard'>My Personal Blog</a></h1>
+    </header>
+
+    <main class="container">
+        <article class="single-post">
+            <h2><%= article.title %></h2>
+            <time><%= article.date %></time>
+
+            <div class="content">
+                <%= article.content %>
+            </div>
+        </article>
+
+        <p><a href="/admin/dashboard">Back to home</a></p>
+    </main>
+</body>
+</html>
