@@ -29,13 +29,14 @@
    ```
    npx tsc
    node --inspect-brk dist/app.ts
+   
   go to -> edge browser (edge://inspect) and click on remote targer. Dont forget to add breakpoint app func.
    ```
    * Run without Debug
    ```
-   npx ts-node app.ts
+       npx ts-node app.ts
   
-   ```
+    ```
 
 
 ## Contributing
